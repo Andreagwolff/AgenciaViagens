@@ -133,10 +133,6 @@ public class UsuarioActivity extends AppCompatActivity {
             isValid = false;
         }
 
-        if (!editEmail.validateWith(new RegexpValidator("Email invalido!", RegCons.EMAIL))) {
-            isValid = false;
-        }
-
         if (!editSenha.validateWith(new RegexpValidator("Este campo não pode ser vazio!", RegCons.VAZIO))) {
             isValid = false;
         }

@@ -33,7 +33,7 @@
                     android:layout_height="wrap_content"
                     android:hint="E-Mail"
                     android:textColorHint="@color/colorAccent"
-                    android:text="fulano@hotmail.com"
+                    android:text="agwolff@bol.com.br"
                     android:textColor="@color/colorPrimary"
                     android:textSize="24sp"
                     android:inputType="textEmailAddress"
