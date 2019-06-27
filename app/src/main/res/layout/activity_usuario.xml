@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UsuarioActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="6dp"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="6dp"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/activity_usuario_editNome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nome"
+                    android:textColorHint="@color/colorAccent"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="22sp"
+                    android:inputType="text"
+                    app:met_baseColor="@color/colorPrimary"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/activity_usuario_editEndereco"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Endereço"
+                    android:textColorHint="@color/colorAccent"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:inputType="text"
+                    app:met_baseColor="@color/colorPrimary"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/activity_usuario_editCidade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Cidade"
+                    android:textColorHint="@color/colorAccent"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:inputType="text"
+                    app:met_baseColor="@color/colorPrimary"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/activity_usuario_editUf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Estado(UF)"
+                    android:textColorHint="@color/colorAccent"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:inputType="text"
+                    app:met_maxCharacters="2"
+                    app:met_baseColor="@color/colorPrimary"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/activity_usuario_editDataNascimento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Data de Nascimento"
+                    android:textColorHint="@color/colorAccent"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:inputType="date"
+                    app:met_baseColor="@color/colorPrimary"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/activity_usuario_editTelefone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Telefone"
+                    android:textColorHint="@color/colorAccent"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:inputType="text"
+                    app:met_baseColor="@color/colorPrimary"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/activity_usuario_editEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:textColorHint="@color/colorAccent"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:inputType="textEmailAddress"
+                    app:met_baseColor="@color/colorPrimary"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/activity_usuario_editSenha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Senha"
+                    android:textColorHint="@color/colorAccent"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:inputType="textPassword"
+                    app:met_baseColor="@color/colorPrimary"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_singleLineEllipsis="true" />
+
+                <Button
+                    android:id="@+id/activity_usuario_btnCadastrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_margin="8dp"
+                    android:textColor="@android:color/white"
+                    android:background="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:text="Confirmar"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </ScrollView>
+
+</LinearLayout>

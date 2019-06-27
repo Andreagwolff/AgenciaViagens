@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/fab_pacotes_profile"
+        android:icon="@drawable/ic_person_white_24dp"
+        android:title="Profile"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/fab_pacotes_viagens"
+        android:icon="@drawable/ic_business_center_white_24dp"
+        android:title="Viagens"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/fab_pacotes_buscar"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="Buscar"
+        app:showAsAction="ifRoom" />
+</menu>

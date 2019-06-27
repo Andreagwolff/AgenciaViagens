@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="6dp"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@android:color/white"
+            android:layout_gravity="center_vertical">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/activity_login_editEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="E-Mail"
+                    android:textColorHint="@color/colorAccent"
+                    android:text="fulano@hotmail.com"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="24sp"
+                    android:inputType="textEmailAddress"
+                    app:met_baseColor="@color/colorPrimary"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/activity_login_editSenha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Senha"
+                    android:textColorHint="@color/colorAccent"
+                    android:text="123456"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="24sp"
+                    android:inputType="textPassword"
+                    app:met_baseColor="@color/colorPrimary"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_singleLineEllipsis="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="left"
+                    android:layout_gravity="center_vertical"
+                    android:text="Não possui uma conta?"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/activity_login_txtCadastrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:gravity="left"
+                    android:layout_gravity="center_vertical"
+                    android:text="Cadastre-se!"
+                    android:textSize="22sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/activity_login_btnAcessar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@android:color/white"
+                    android:text="Acessar"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:background="@color/colorPrimary"
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </ScrollView>
+
+</LinearLayout>
